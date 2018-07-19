@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400i');
+.App {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-image: url("calculator.jpg");
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.jumbo {
+    width: 160px;
+    position: relative;
+}
+.operationScreen {
+    min-height: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    color: yellowgreen;
+    text-align: right;
+    vertical-align: text-top;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.outputScreen {
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    border: solid thin;
+    text-align: right;
+    line-height: 40px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+button {
+    position: relative;
+    margin-top: 10px;
+    height: 65px;
+    width: 80px;
+    color: white;
+    outline: 1px solid black;
+    border: ridge slategray;
+    background:midnightblue;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    cursor: crosshair;
+
+}
+#calculator{
+    border: 4px solid #47476b;
+    padding: 20px;
+    background: darkred;
+    width: 350px;
+    position: relative;
+
+}
+.equalsStyle{
+    background: firebrick;
+    position: absolute;
+    height: 140px;
+    bottom: 20px;
+
+
+}
